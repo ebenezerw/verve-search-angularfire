@@ -1,3 +1,4 @@
-<p>
-  meta works!
-</p>
+<button (click)="getApps()">Get Apps</button>
+<div *ngFor="let app of apps">
+  {{app.appName}}
+</div>

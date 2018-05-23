@@ -10,8 +10,10 @@
     "logs": "firebase functions:log"
   },
   "dependencies": {
+    "cors": "^2.8.4",
     "firebase-admin": "~5.12.1",
-    "firebase-functions": "^1.0.3"
+    "firebase-functions": "^1.0.3",
+    "requestify": "^0.2.5"
   },
   "devDependencies": {
     "eslint": "^4.12.0",
